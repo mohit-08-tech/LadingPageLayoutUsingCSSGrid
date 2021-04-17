@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    color: #fff;
+    display: grid;
+    grid-template-rows: 40px 80px 350px 40px;
+    grid-template-columns: repeat(3,1fr) 100px ;
+    grid-gap: 15px;
+
+}
+.nav{background: cornflowerblue;
+grid-column: 1/-1;}
+.subm1{background: violet;}
+.subm2{background: tomato;}
+.subm3{background: teal;}
+.content{background: rebeccapurple;
+grid-column: 1/4;}
+.sidebar{background:steelblue;
+grid-row: 2/4;
+grid-column: 4/5;}
+.footer{background: red;
+grid-column: 1/-1;}  
